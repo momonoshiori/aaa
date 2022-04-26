@@ -60,12 +60,19 @@ custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择
 custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]DIRECT`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动切换
-custom_proxy_group=🇭🇰 香港节点`select`(港|HK|Hong Kong)
-custom_proxy_group=🇯🇵 日本节点`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)
-custom_proxy_group=🇺🇲 美国节点`select`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
-custom_proxy_group=🇸🇬 狮城节点`select`(新加坡|坡|狮城|SG|Singapore)
-custom_proxy_group=🇨🇳 台湾节点`select`(台|新北|彰化|TW|Taiwan)
-custom_proxy_group=🇰🇷 韩国节点`select`(KR|Korea|KOR|首尔|韩|韓)
+custom_proxy_group=🇭🇰 香港节点1`select`(Hong Kong)
+custom_proxy_group=🇭🇰 香港节点2`select`(香港标准|香港高级)
+custom_proxy_group=🇯🇵 日本节点1`select`(Japan)
+custom_proxy_group=🇯🇵 日本节点2`select`(日本标准|日本高级)
+custom_proxy_group=🇺🇲 美国节点1`select`(United States)
+custom_proxy_group=🇺🇲 美国节点2`select`(美国标准|美国高级)
+custom_proxy_group=🇸🇬 狮城节点1`select`(Singapore)
+custom_proxy_group=🇸🇬 狮城节点2`select`(新加坡标准|新加坡高级)
+custom_proxy_group=🇨🇳 台湾节点1`select`(Taiwan)
+custom_proxy_group=🇨🇳 台湾节点2`select`(台湾标准|台湾高级)
+custom_proxy_group=🇰🇷 韩国节点1`select`(Korea)
+custom_proxy_group=🇰🇷 韩国节点2`select`(韩国标准)
+custom_proxy_group=💰 低倍节点`select`(香港实验性|日本实验性|新加坡实验性|美国实验性)
 custom_proxy_group=🎥 奈飞节点`select`(NF|奈飞|解锁|Netflix|NETFLIX|Media)
 ;设置分组标志位
 
