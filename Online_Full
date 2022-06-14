@@ -3,11 +3,12 @@
 ;acl4SSR规则
 
 ;去广告：支持
-;自动测速：不支持
+;自动测速：支持
 ;微软分流：支持
 ;苹果分流：支持
 ;增强中国IP段：支持
 ;增强国外GFW：支持
+;自用,节点拉取不通用
 
 ;设置规则标志位
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
@@ -17,30 +18,33 @@ ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ruleset=📢 谷歌FCM,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
 ruleset=☁️ 微软云盘,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
-ruleset=☁️ GoogleDrive,https://raw.githubusercontent.com/momonoshiori/aaa/main/1/GoogleDrive.list
-ruleset=☁️ MEGA,https://raw.githubusercontent.com/momonoshiori/aaa/main/1/MEGA.list
+ruleset=☁️ GoogleDrive,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleDrive/GoogleDrive.list
+ruleset=☁️ MEGA,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MEGA/MEGA.list
 ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
 ruleset=🍎 苹果服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
-ruleset=📲 电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
-ruleset=📲 Discord,https://raw.githubusercontent.com/momonoshiori/aaa/main/1/Discord.list
-ruleset=🎶 Spotify,https://raw.githubusercontent.com/momonoshiori/aaa/main/1/Spotify.list
-ruleset=🎶 网易音乐,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list
-ruleset=💰 PayPal,https://raw.githubusercontent.com/momonoshiori/aaa/main/1/PayPal.list
+ruleset=📲 Telegram,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list
+ruleset=📲 Discord,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Discord/Discord.list
+ruleset=🎶 Spotify,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list
+ruleset=💰 PayPal,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PayPal/PayPal.list
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
-ruleset=📹 油管视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
-ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
-ruleset=🎥 Disney+,https://raw.githubusercontent.com/momonoshiori/aaa/main/1/Disney.list
-ruleset=🎥 HBO MAX,https://raw.githubusercontent.com/momonoshiori/aaa/main/1/HBO.list
-ruleset=🎥 AbemaTV,https://raw.githubusercontent.com/momonoshiori/aaa/main/1/AbemaTV.list
-ruleset=🎥 Niconico,https://raw.githubusercontent.com/momonoshiori/aaa/main/1/Niconico.list
+ruleset=📹 youtube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list
+ruleset=📹 YouTubeMusic,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTubeMusic/YouTubeMusic.list
+ruleset=📹 Twitch,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitch/Twitch.list
+ruleset=🎥 Netflix,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list
+ruleset=🎥 Disney+,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list
+ruleset=🎥 HBO MAX,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list
+ruleset=🎥 AmazonPrimeVideo,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.list
+ruleset=🎥 Hulu,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hulu/Hulu.list
+ruleset=🎥 AbemaTV,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AbemaTV/AbemaTV.list
+ruleset=🎥 Niconico,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Niconico/Niconico.list
+ruleset=🎥 BBC,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BBC/BBC.list
 ruleset=📺 巴哈姆特,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
 ruleset=📺 哔哩哔哩,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
 ruleset=📺 哔哩哔哩,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
 ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
-ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
-ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+ruleset=🚀 主代理,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy.list
 ;ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
@@ -53,17 +57,23 @@ ruleset=🐟 漏网之鱼,[]FINAL
 ;设置分组标志位
 custom_proxy_group=🚀 节点选择`select`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🚀 手动切换`select`.*
-custom_proxy_group=📲 电报消息`select`[]🚀 节点选择`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🚀 主代理`select`[]🚀 节点选择`[]🚀 手动切换`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]DIRECT
+custom_proxy_group=📲 Telegram`select`[]🚀 节点选择`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=📲 Discord`select`[]🚀 节点选择`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换`[]DIRECT
-custom_proxy_group=📹 油管视频`select`[]🚀 节点选择`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换`[]DIRECT
-custom_proxy_group=🎥 奈飞视频`select`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🎥 奈飞节点`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=📹 youtube`select`[]🚀 节点选择`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=📹 YouTubeMusic`select`[]🚀 节点选择`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=📹 Twitch`select`[]🚀 节点选择`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🎥 Netflix`select`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🎥 奈飞节点`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🎥 Disney+`select`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🎥 HBO MAX`select`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🎥 AmazonPrimeVideo`select`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🎥 Hulu`select`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🎥 AbemaTV`select`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]💰 低倍节点`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🎥 Niconico`select`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]💰 低倍节点`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🎥 BBC`select`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=📺 巴哈姆特`select`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]💰 低倍节点`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=📺 哔哩哔哩`select`[]🎯 全球直连`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2
-custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🎶 Spotify`select`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🚀 节点选择`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换
 custom_proxy_group=📢 谷歌FCM`select`[]DIRECT`[]🚀 节点选择`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换
 custom_proxy_group=Ⓜ️ 微软服务`select`[]DIRECT`[]🚀 节点选择`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换
@@ -73,8 +83,6 @@ custom_proxy_group=☁️ GoogleDrive`select`[]DIRECT`[]🚀 节点选择`[]🇭
 custom_proxy_group=☁️ MEGA`select`[]DIRECT`[]🚀 节点选择`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换
 custom_proxy_group=💰 PayPal`select`[]DIRECT`[]🚀 节点选择`[]🇭🇰 香港节点1`[]🇭🇰 香港节点2`[]🇨🇳 台湾节点1`[]🇨🇳 台湾节点2`[]🇸🇬 狮城节点1`[]🇸🇬 狮城节点2`[]🇯🇵 日本节点1`[]🇯🇵 日本节点2`[]🇺🇲 美国节点1`[]🇺🇲 美国节点2`[]🇰🇷 韩国节点1`[]🇰🇷 韩国节点2`[]🚀 手动切换
 custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]🚀 节点选择`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换
-custom_proxy_group=🎶 Spotify`select`[]🇭🇰 香港节点1`[]♻️ 香港节点1`[]🇭🇰 香港节点2`[]♻️ 香港节点2`[]🇨🇳 台湾节点1`[]♻️ 台湾节点1`[]🇨🇳 台湾节点2`[]♻️ 台湾节点2`[]🇸🇬 狮城节点1`[]♻️ 狮城节点1`[]🇸🇬 狮城节点2`[]♻️ 狮城节点2`[]🇯🇵 日本节点1`[]♻️ 日本节点1`[]🇯🇵 日本节点2`[]♻️ 日本节点2`[]🇺🇲 美国节点1`[]♻️ 美国节点1`[]🇺🇲 美国节点2`[]♻️ 美国节点2`[]🇰🇷 韩国节点1`[]♻️ 韩国节点1`[]🇰🇷 韩国节点2`[]♻️ 韩国节点2`[]💰 低倍节点`[]🚀 手动切换`[]DIRECT
-custom_proxy_group=🎶 网易音乐`select`[]DIRECT`[]🚀 节点选择`(网易|音乐|解锁|Music|NetEase)
 custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择
 custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
