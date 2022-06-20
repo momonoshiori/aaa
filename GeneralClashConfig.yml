@@ -1,3 +1,21 @@
+geodata-mode: true
+geodata-loader: standard
+tcp-concurrent: true
+sniffer:
+  enable: true
+  sniffing:
+    - tls
+    - http
+  skip-domain:
+    - 'Mijia Cloud'
+    - '+.apple.com'
+    
+  force-domain:
+  # - '+'
+    - '+.netflix.com'
+    - '+.nflxvideo.net'
+    - '+.amazonaws.com'
+    - '+.media.dssott.com'
 dns:
   enable: true
   use-hosts: true
@@ -6,6 +24,11 @@ dns:
   - 223.5.5.5
   - 8.8.8.8
   - 119.29.29.29
+  proxy-server-nameserver:
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  - tls://8.8.4.4:853
+  - tls://1.0.0.1:853
   nameserver:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
@@ -14,26 +37,14 @@ dns:
   - https://doh.opendns.com/dns-query
   - https://cloudflare-dns.com/dns-query
   - https://dns.quad9.net/dns-query
+  - 'tls://8.8.4.4:853#🚀 主代理'
 fallback-filter:
   geoip: true
   geoip-code: CN
+  geosite:
+    - gfw
   ipcidr:
-    - 0.0.0.0/8
-    - 10.0.0.0/8
-    - 100.64.0.0/10
-    - 127.0.0.0/8
-    - 169.254.0.0/16
-    - 172.16.0.0/12
-    - 192.0.0.0/24
-    - 192.0.2.0/24
-    - 192.88.99.0/24
-    - 192.168.0.0/16
-    - 198.18.0.0/15
-    - 198.51.100.0/24
-    - 203.0.113.0/24
-    - 224.0.0.0/4
     - 240.0.0.0/4
-    - 255.255.255.255/32
   domain:
     - "+.google.com"
     - "+.facebook.com"
