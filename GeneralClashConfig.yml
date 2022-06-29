@@ -37,7 +37,7 @@ dns:
   - https://doh.opendns.com/dns-query
   - https://cloudflare-dns.com/dns-query
   - https://dns.quad9.net/dns-query
-  - 'tls://8.8.4.4:853#🚀 主代理'
+  - 'https://dns.google/dns-query#🚀 主代理'
 fallback-filter:
   geoip: true
   geoip-code: CN
