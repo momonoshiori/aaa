@@ -1,0 +1,4 @@
+# NAME: win11NoInternet
+# DOMAIN-SUFFIX: 2
+DOMAIN-SUFFIX,msftconnecttest.com,
+DOMAIN-SUFFIX,msftncsi.com
