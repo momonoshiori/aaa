@@ -1,5 +1,3 @@
-[common] 
-exclude_remarks=(Expire|到期|剩余流量|时间|官网|产品|平台)
 [custom]
 ;不要随意改变关键字，否则会导致出错
 ;acl4SSR规则
@@ -43,7 +41,7 @@ ruleset=🎮 Nintendo,clash-classic:https://raw.githubusercontent.com/blackmatri
 ruleset=🎮 Steam,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml,86400
 ruleset=🎮 Epic,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Epic/Epic.yaml,86400
 ruleset=🎮 GoG,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gog/Gog.yaml,86400
-ruleset=☁️ 微软云盘,clash-classic:https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/OneDrive/OneDrive.yaml,86400
+ruleset=☁️ 微软云盘,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml,86400
 ruleset=☁️ GoogleDrive,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleDrive/GoogleDrive.yaml,86400
 ruleset=☁️ MEGA,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MEGA/MEGA.yaml,86400
 ruleset=☁️ PikPak,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PikPak/PikPak.yaml,86400
