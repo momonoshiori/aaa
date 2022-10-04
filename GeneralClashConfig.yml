@@ -1,18 +1,18 @@
 dns:
   enable: true
   default-nameserver:
-  - 223.5.5.5
-  - 8.8.8.8
-  - 119.29.29.29
+   - 223.5.5.5
+   - 8.8.8.8
+   - 119.29.29.29
   proxy-server-nameserver:
-  - https://doh.pub/dns-query
-  - https://dns.alidns.com/dns-query
-  - tls://8.8.8.8:853
-  - tls://1.1.1.1:853
+   - https://doh.pub/dns-query
+   - https://dns.alidns.com/dns-query
+   - tls://8.8.8.8:853
+   - tls://1.1.1.1:853
   nameserver:
-  - 'https://dns.google/dns-query#♻️ 香港节点1'
-  - 'https://dns.google/dns-query#♻️ 香港节点2'
-  - 'https://doh.opendns.com/dns-query#♻️ 香港节点1'
-  - 'https://doh.opendns.com/dns-query#♻️ 香港节点2'
-  - 'https://cloudflare-dns.com/dns-query#♻️ 香港节点1'
-  - 'https://cloudflare-dns.com/dns-query#♻️ 香港节点2'
+   - 'https://dns.google/dns-query#👀 DNS1'
+   - 'https://dns.google/dns-query#👀 DNS2'
+   - 'https://doh.opendns.com/dns-query#👀 DNS1'
+   - 'https://doh.opendns.com/dns-query#👀 DNS2'
+   - 'https://cloudflare-dns.com/dns-query#👀 DNS1'
+   - 'https://cloudflare-dns.com/dns-query#👀 DNS2'
