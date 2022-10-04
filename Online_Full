@@ -135,7 +135,7 @@ enable_rule_generator=true
 overwrite_original_rules=true
 
 ;设置DNS
-;clash_rule_base=https://raw.githubusercontent.com/momonoshiori/aaa/main/GeneralClashConfig.yml
+clash_rule_base=https://raw.githubusercontent.com/momonoshiori/aaa/main/GeneralClashConfig.yml
 ;设置DNS
 
 ;luck
