@@ -1,21 +1,3 @@
-geodata-mode: true
-geodata-loader: standard
-tcp-concurrent: true
-sniffer:
-  enable: true
-  sniffing:
-    - tls
-    - http
-  skip-domain:
-    - 'Mijia Cloud'
-    - '+.apple.com'
-    
-  force-domain:
-  # - '+'
-    - '+.netflix.com'
-    - '+.nflxvideo.net'
-    - '+.amazonaws.com'
-    - '+.media.dssott.com'
 dns:
   enable: true
   use-hosts: true
@@ -27,31 +9,12 @@ dns:
   proxy-server-nameserver:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
-  - tls://8.8.4.4:853
-  - tls://1.0.0.1:853
+  - tls://8.8.8.8:853
+  - tls://1.1.1.1:853
   nameserver:
-  - https://doh.pub/dns-query
-  - https://dns.alidns.com/dns-query
-  fallback:
-  - https://dns.google/dns-query
-  - https://doh.opendns.com/dns-query
-  - https://cloudflare-dns.com/dns-query
-  - https://dns.quad9.net/dns-query
-  - 'https://dns.google/dns-query#🚀 主代理'
-fallback-filter:
-  geoip: true
-  geoip-code: CN
-  geosite:
-    - gfw
-  ipcidr:
-    - 240.0.0.0/4
-  domain:
-    - "+.google.com"
-    - "+.facebook.com"
-    - "+.youtube.com"
-    - "+.githubusercontent.com"
-    - "+.googlevideo.com"
-    - "+.msftconnecttest.com"
-    - "+.msftncsi.com"
-    - msftconnecttest.com
-    - msftncsi.com
+  - 'https://dns.google/dns-query#♻️ 香港节点1'
+  - 'https://dns.google/dns-query#♻️ 香港节点2'
+  - 'https://doh.opendns.com/dns-query#♻️ 香港节点1'
+  - 'https://doh.opendns.com/dns-query#♻️ 香港节点2'
+  - 'https://cloudflare-dns.com/dns-query#♻️ 香港节点1'
+  - 'https://cloudflare-dns.com/dns-query#♻️ 香港节点2'
