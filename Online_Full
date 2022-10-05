@@ -53,7 +53,8 @@ ruleset=Ⓜ️ 微软服务,clash-classic:https://raw.githubusercontent.com/blac
 ruleset=🍎 苹果服务,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml,82800
 ruleset=🎯 全球直连,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml,82800
 ruleset=🎯 全球直连,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml,82800
-ruleset=🎯 全球直连,[]GEOIP,CN
+ruleset=🎯 全球直连,[]geosite,cn
+ruleset=🎯 全球直连,[]GEOIP,CN,no-resolve
 ruleset=🚀 国外线路,[]FINAL
 ;设置规则标志位
 
