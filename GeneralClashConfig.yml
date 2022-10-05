@@ -10,9 +10,5 @@ dns:
    - tls://8.8.8.8:853
    - tls://1.1.1.1:853
   nameserver:
-   - '8.8.8.8#👀 DNS1'
-   - '8.8.8.8##👀 DNS2'
-   - '208.67.222.222#👀 DNS1'
-   - '208.67.222.222#👀 DNS2'
-   - '1.1.1.1#👀 DNS1'
-   - '1.1.1.1#👀 DNS2'
+   - https://doh.pub/dns-query
+   - https://dns.alidns.com/dns-query
